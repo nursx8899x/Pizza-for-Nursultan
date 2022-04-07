@@ -1,0 +1,348 @@
+@import "fonts.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 370;
+}
+
+
+header{
+    background: url(../img/header_bg.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+
+header nav{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header nav .logo{
+
+
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase; 
+    font-family: 'Bold';
+}
+header nav ul {
+    display: flex;
+}
+
+
+header nav ul .number{
+    font-size: 24px;
+    color: white;
+    font-family: 'Regular';
+    margin-right: 50px;
+}
+
+header nav ul .button{
+    font-style: 16px;
+    color: white;
+    padding: 18px 26px;
+    background:green;
+    display: block;
+    border-radius: 50px;
+    font-family: 'Regular';
+    transition: 2s;
+}
+
+header nav ul .button:hover{
+    background: cyan;
+}
+
+
+header .text{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+header .text h2{
+    font-size: 18px;
+    color: white;
+    font-family: 'Black';
+    text-transform: uppercase;
+}
+
+header .text h1{
+    font-size: 72px;
+    color: white;
+    font-family: 'Black';
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+
+header .text p{
+    font-size: 18px;
+    color: white;   
+    font-family: 'Regular';
+    text-transform: uppercase;
+    max-width: 40px;
+}
+
+
+
+header .text a{
+    font-style: 16px;
+    color: white;
+    padding: 18px 26px;
+    background: linear-gradient(to top, rgb(5, 245, 213), rgb(255, 0, 200));
+    border-radius: 50px;
+
+    font-family: 'Regular';
+    margin-top: 50px;
+    display: block;
+}
+.menu-number button{
+    font-style: 16px;
+    color: white;
+    padding: 18px 26px;
+    background: linear-gradient(to top, green, greenyellow);
+    border-radius: 50px;
+
+    font-family: 'Regular';
+    margin-top: 50px;
+    display: block;
+}
+
+/* header end */
+/* ......................................... . */
+/* main start */
+
+main .main-block{
+    max-width: 1114px;
+    width: 100%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+main .main-block .main-text h2{
+    font-size: 36px;
+    color: violet;
+    text-transform: uppercase;
+    font-family: 'Bold';
+}
+
+main .main-block .main-text .text{
+    font-style: 18px;
+    color: gray;
+    font-family: 'Regular';
+    line-height: 30px;
+    margin-top: 64px;
+}
+
+main .main-block .main-text .user-name{
+    font-size: 24px;
+    color: rgb(0, 255, 213);
+    font-family: 'Bold';
+    display: flex;
+    align-items: center;
+}
+
+main .main-block .main-text .user-name img{
+    margin-left: 62px;
+}
+main .main-block img{
+    margin-right: 35px;
+}
+
+main{
+    padding-top: 87px;
+    padding-bottom: 67px;
+}
+/* main end */
+/* ................... */
+/* section-pizza start */
+
+.section-pizza .section-menu{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-pizza .section-menu h3{
+    font: size 36;
+    color: rgb(0, 255, 213);
+    text-transform: uppercase;
+    font-family: 'Bold';
+}
+
+.section-pizza .section-menu .menu-img{
+    position: relative;
+}
+.section-pizza .section-menu .menu-img .menu-img-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    color: white;
+    background: rgb(0, 4, 255);
+    font-family: 'Bold';
+    font-style: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.section-pizza .section-menu .menu-text h2{
+    font-size: 30px;
+    color: gray;
+    font-family: 'Bold';
+    text-decoration: underline;
+    margin-bottom: 33px;
+}
+
+.section-pizza .section-menu .menu-text p{
+   font-size: 14px;
+   color: #ababab;
+   font-family: 'Regular';
+   margin-bottom: 11px;
+   
+ 
+  
+}
+
+.section-pizza .menu-box .menu-text{
+    margin-left: 5px;
+}
+
+.section-pizza .menu-box{
+    display: flex;
+}
+
+.section-pizza .section-menu .menu-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.section-pizza .section-menu .menu-box .menu-number button{
+    background: linear-gradient(to top green, greenyellow);
+    color:whitesmoke; 
+    transition: 2s;
+    
+}
+
+.durochki{
+    max-width: 1114px;
+    width: 100%;
+    margin: auto;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.durochki .user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* meida */
+
+
+@media (max-width:900) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    main .main-block{
+        flex-direction: column;
+       
+    }
+    main .main-block .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+  
+}
+
+header .text a:hover{
+    background: rgb(0, 255, 213);
+}
+
+
+@media (max-width: 700px) {
+    header nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 512px) {
+  header nav ul{
+      flex-direction: column;
+  }
+    
+
+
+
+header  nav ul .number{
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+header .text{
+    align-items: center;
+    text-align: center;
+    
+}
+
+main .main block img{
+   margin-right: 0;
+   width: 50%;
+}
+
+
+}
+
+
+
+@media (max-width:400px) {
+    main .main-block .main-text .user-name{
+        flex-direction: column;
+    }
+}
